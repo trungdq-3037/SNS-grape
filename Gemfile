@@ -77,6 +77,8 @@ gem 'grape-swagger-representable'
 gem 'rack-cors'
 gem 'dotenv-rails'
 gem 'rspec'
+gem 'rspec-rails'
+gem 'factory_bot_rails'
 gem 'doorkeeper'
 gem 'doorkeeper-jwt'
 gem "jwt"
