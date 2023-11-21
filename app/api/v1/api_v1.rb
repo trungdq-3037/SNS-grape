@@ -5,5 +5,6 @@ class ApiV1 < Grape::API
   helpers Authentication
   mount AuthenApi
   mount UserApi
-
+  mount PostApi
+  mount CommentApi
 end
