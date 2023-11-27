@@ -27,7 +27,7 @@ describe AuthenApi, type: :request do
         post '/api/v1/login', params: { email: 'test@example.com', password: 'wrong_password' }
         expect(response.status).to eq(400)
         parsed_response = JSON.parse(response.body)
-        expect(parsed_response['message']).to eq("Invalid password or email")
+        expect(parsed_response['message']).to eq('Invalid password or email')
       end
     end
   end
